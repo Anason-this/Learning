@@ -1,0 +1,74 @@
+    Cloning:
+        Purpose: To create a new local copy of a repository.
+        Scope: Copies the entire repository, including history, branches, and files.
+        Usage: Typically done once when you first start working with a repository.
+
+    Pulling:
+        Purpose: To update your current local branch with changes from the remote repository.
+        Scope: Fetches and merges updates into your existing local repository.
+        Usage: Done regularly to keep your local copy up to date with changes from the remote repository.
+
+
+Git Commands
+
+    Initialize a Repository
+    git init
+    Starts a new Git repository in the current directory.
+
+    Clone a Repository
+    git clone <repository-url>
+    Copies an existing remote repository to your local machine.
+
+    Check Status
+    git status
+    Shows the current state of your working directory and staging area.
+
+    Add Changes
+    git add <file>
+    git add .
+    Stages files or all changes for the next commit.
+
+    Commit Changes
+    git commit -m "Message"
+    Saves staged changes to the repository with a descriptive message.
+
+    View History
+    git log
+    Displays a list of past commits on the current branch.
+
+    Create a Branch
+    git branch <branch-name>
+    Creates a new branch in your repository.
+
+    Switch Branches
+    git checkout <branch-name>
+    Switches to a different branch.
+
+    Merge Branches
+    git merge <branch-name>
+    Combines changes from another branch into the current branch.
+
+    Delete a Branch
+    git branch -d <branch-name>
+    Deletes a specified branch (use -D to force deletion).
+
+    Fetch Changes
+    git fetch
+    Retrieves updates from the remote repository without merging.
+
+    Pull Changes
+    git pull
+    Fetches and integrates changes from the remote repository into your current branch.
+
+    Push Changes
+    git push origin <branch-name>
+    Sends your local commits to the remote repository.
+
+    View Differences
+    git diff
+    Shows changes between your working directory and the staging area, or between commits.
+
+    Revert Changes
+    git revert <commit-hash>
+    Creates a new commit that undoes changes from a specific commit.
+
